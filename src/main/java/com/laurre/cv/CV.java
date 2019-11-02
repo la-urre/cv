@@ -1,10 +1,10 @@
 package com.laurre.cv;
 
-import com.laurre.cv.person.experience.Language;
 import com.laurre.cv.person.Person;
 import com.laurre.cv.person.education.Field;
 import com.laurre.cv.person.education.School;
 import com.laurre.cv.person.education.Title;
+import com.laurre.cv.person.experience.Language;
 import com.laurre.cv.person.work.Company;
 import com.laurre.cv.person.work.ProductKind;
 
@@ -14,21 +14,18 @@ import java.time.Month;
 import static com.laurre.cv.person.PersonBuilder.personWith;
 import static com.laurre.cv.person.details.Hobby.*;
 import static com.laurre.cv.person.details.Nationality.FRENCH;
-import static com.laurre.cv.person.details.PhoneNumber.mobile;
 import static com.laurre.cv.person.details.Value.*;
-import static com.laurre.cv.person.details.EmailAddress.email;
 import static com.laurre.cv.person.education.CourseBuilder.courseOf;
 import static com.laurre.cv.person.education.DegreeBuilder.degreeFrom;
 import static com.laurre.cv.person.experience.Skill.*;
 import static com.laurre.cv.person.experience.Topic.*;
 import static com.laurre.cv.person.work.WorkExperienceBuilder.workExperienceAt;
-import static java.time.LocalDate.now;
 
 /**
- * My CV can be seen at:
+ * My CV can be seen at: https://github.com/la-urre/cv/blob/master/src/main/java/com/laurre/cv/CV.java
  */
 public class CV {
-    public static void introduceMyself() {
+    public static void unroll() {
         Person i = personWith()
                 .name("Damien")
                 .surname("Urruty")
