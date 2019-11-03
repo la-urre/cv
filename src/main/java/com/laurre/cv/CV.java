@@ -35,10 +35,12 @@ public class CV {
 
         i.sayLoudly("I'm a passionate developer looking for a remote position in a collaborative environment!");
 
-        i.value(HUMILITY, CURIOSITY, EMPATHY);
+        i.value(HUMILITY, CURIOSITY, HONESTY);
 
-        i.love(CLEAN_CODE, TEST_DRIVEN_DEVELOPMENT, PAIR_PROGRAMMING, MOB_PROGRAMMING,
-                EXTREME_PROGRAMMING, OPEN_SOURCE, SOFTWARE_DESIGN, CONTINUOUS_INTEGRATION); // and much more
+        i.love(CLEAN_CODE, TEST_DRIVEN_DEVELOPMENT,
+                PAIR_PROGRAMMING, MOB_PROGRAMMING,
+                EXTREME_PROGRAMMING, OPEN_SOURCE,
+                SOFTWARE_DESIGN, CONTINUOUS_INTEGRATION); // and much more
 
         i.codeWith(Language.JAVA, Language.C, Language.JAVASCRIPT); // and some more
 
@@ -56,7 +58,7 @@ public class CV {
         i.teach(courseOf(Field.COMPUTER_SCIENCE)
                 .at(School.IUT_BAYONNE)
                 .since(2011)
-                .teaching(ALGORITHMS, DATA_STRUCTURES));
+                .teaching(ALGORITHMS, DATA_STRUCTURES, MOBILE_APP_DEVELOPMENT));
 
         i.received(degreeFrom(School.INSA_TOULOUSE)
                 .with(Title.ENGINEER)
