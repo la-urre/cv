@@ -1,6 +1,7 @@
 package com.laurre.cv.person;
 
 import com.laurre.cv.person.details.Hobby;
+import com.laurre.cv.person.details.Nationality;
 import com.laurre.cv.person.details.Value;
 import com.laurre.cv.person.education.Course;
 import com.laurre.cv.person.experience.Topic;
@@ -35,5 +36,8 @@ public class Person {
     }
 
     public void have(WorkExperience workExperience) {
+    }
+
+    public void speak(com.laurre.cv.person.details.Language ... languages) {
     }
 }

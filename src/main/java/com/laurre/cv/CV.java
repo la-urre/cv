@@ -13,6 +13,7 @@ import java.time.Month;
 
 import static com.laurre.cv.person.PersonBuilder.personWith;
 import static com.laurre.cv.person.details.Hobby.*;
+import static com.laurre.cv.person.details.Language.*;
 import static com.laurre.cv.person.details.Nationality.FRENCH;
 import static com.laurre.cv.person.details.Value.*;
 import static com.laurre.cv.person.education.CourseBuilder.courseOf;
@@ -51,8 +52,7 @@ public class CV {
 
         i.have(workExperienceAt(Company.NEOMADES)
                 .building(ProductKind.CROSS_PLATFORM_MOBILE_FRAMEWORK)
-                .since(2010)
-                .until(2017)
+                .between(2010, 2017)
                 .learning(COMPILER_INTERNALS, SCRUM, TEAM_SELF_ORGANIZATION, CONTINUOUS_IMPROVEMENT));
 
         i.teach(courseOf(Field.COMPUTER_SCIENCE)
@@ -64,6 +64,8 @@ public class CV {
                 .with(Title.ENGINEER)
                 .in(Field.COMPUTER_SCIENCE)
                 .on(LocalDate.of(2010, Month.JUNE, 30)));
+
+        i.speak(ENGLISH, SPANISH, BASQUE);
 
         i.enjoy(HIKING, BASQUE_PELOTE, SQUASH, PUZZLES);
     }

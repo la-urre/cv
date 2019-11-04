@@ -28,4 +28,8 @@ public class WorkExperienceBuilder {
     public WorkExperience learning(Skill... skills) {
         return new WorkExperience();
     }
+
+    public WorkExperienceBuilder between(int yearFrom, int yearTo) {
+        return null;
+    }
 }
