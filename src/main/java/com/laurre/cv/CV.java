@@ -34,7 +34,7 @@ public class CV {
                 .nationality(FRENCH)
                 .network("https://www.linkedin.com/in/urruty");
 
-        i.sayLoudly("I'm a passionate developer looking for a remote position in a collaborative environment!");
+        i.sayLoudly("I'm a passionate developer looking for new challenges in a collaborative environment!");
 
         i.value(HUMILITY, CURIOSITY, HONESTY);
 
